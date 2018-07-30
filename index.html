@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Art&Travelling</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+
+</head>
+
+<body>
+    <header>
+        <input id="search" type="search" placeholder="Search">
+        <h1>Art&Travelling</h1>
+        <nav>
+            <ul>
+                <li><a href="#section-travelling">Travelling</a></li>
+                <li><a href="#section-nature">Nature</a></li>
+                <li><a href="#section-art">Art</a></li>
+                <li><a href="#section-contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="aboutme">
+            <img id="me" src="img/me.jpg" alt="AVrublevska">
+            <p id="about">Hey! Welcome to my Art&Travelling blog. My name is Nastya. I'm the student of the Jagellonian University in Krakow. Studying is not the only thing I do (thanks God exams are only 2 times a year!). In my free time I travel, visit art galleries
+                and make photos of nature.</p>
+        </div>
+        <section id="section-travelling">
+            <div class="travelling">
+                <h2>Travelling</h2>
+                <div class="images-travelling">
+                    <img src="img/travelling.jpg" alt="st-vitus-cathedral">
+                    <img src="img/travelling2.jpg" alt="brno">
+                    <img src="img/tr3.jpg" alt="roadsign">
+                </div>
+                <form method=get action="travel.html">
+                    <button type="submit">More places</button>
+                </form>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br>
+            </div>
+        </section>
+        <hr>
+        <section id="section-art">
+            <h2>Art</h2>
+            <img id="art" src="img/art.jpg" alt="painting">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <hr>
+        <section id="section-nature">
+            <h2>Nature</h2>
+            <div class="images-nature">
+                <img src="img/nature.jpg" alt="trees">
+                <img src="img/sky2.jpg" alt="park">
+                <img src="img/nature3.jpg" alt="sakura">
+            </div>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br>
+        </section>
+    </main>
+    <section id="section-contacts">
+        <h2 id="contactme">Contact Me</h2>
+        <br>
+        <div id="contacts">
+            <form method="POST" action="https://formspree.io/nastuniavrublevska@gmail.com">
+                <input type="text" name="client-name" id="client-name" placeholder="Your name" required>
+                <br>
+                <input type="email" name="client-email" placeholder="Your email" required>
+                <br>
+                <input id="textbox" type="text" placeholder="Write here" required>
+                <br>
+                <input type="submit">
+                <br>
+                <input type="reset">
+                <br>
+            </form>
+        </div>
+        <br>
+        <h3 id="headerlinks">Links</h3>
+        <div id="links">
+            <a href="https://www.facebook.com/anavrublevska">
+                    <img class="links" src="img/fbb-icon.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/anavrublevska/?hl=ru">
+                    <img class="links" src="img/instagram-icon.jpg" alt="instagram">
+                </a>
+            <a href="https://www.pinterest.com/nastiavrublevska2/">
+                    <img class="links" src="img/pinterest-icon.jpg" alt="pinterest">
+                </a>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <small>Copyright AnaVrublevska 2018</small>
+    </footer>
+</body>
+
+</html>
