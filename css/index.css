@@ -5,6 +5,12 @@
 header nav ul li a {
     color: black;
     text-decoration: none;
+    font-size: 3rem;
+}
+
+header h1 {
+    font-size: 6rem !important;
+    font-weight: bold;
 }
 
 header nav ul li a:hover {
@@ -26,10 +32,6 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-/*header h1 #name-of-the-page {*/
-/*    font-size: 8rem !important;*/
-/*    font-weight: bold;*/
-/*}*/
 
 header nav {
     min-width: 300px;
